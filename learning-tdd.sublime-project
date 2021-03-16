@@ -3,11 +3,13 @@
 	[
 		{
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-			"name": "Anaconda Python Builder",
+			"name": "TDD",
 			"selector": "source.python",
-			"shell_cmd": "\"./venv-learning-tdd/bin/python\" -u \"$file\""
-		}
+			"shell_cmd": "\"/home/bruno/Documents/dev/learning-tdd/venv-learning-tdd/bin/python\" -u \"$file\""
+		},
+
 	],
+	
 	"folders":
 	[
 		{
@@ -16,7 +18,7 @@
 	],
 	"settings":
 	{
-		"python_interpreter": "./venv-learning-tdd/bin/python",
-		"python_virtualenv": "./venv-learning-tdd/bin/python"
+		"python_interpreter": "/home/bruno/Documents/dev/learning-tdd/venv-learning-tdd/bin/python",
+		"python_virtualenv": "/home/bruno/Documents/dev/learning-tdd/venv-learning-tdd/bin/python"
 	}
 }
