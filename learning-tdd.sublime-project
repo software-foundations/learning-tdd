@@ -8,6 +8,11 @@
 			"shell_cmd": "\"/home/bruno/Documents/dev/learning-tdd/venv-learning-tdd/bin/python\" -u \"$file\""
 		},
 		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "TDD mypy",			
+			"shell_cmd": "\"/home/bruno/Documents/dev/learning-tdd/venv-learning-tdd/bin/mypy\" \"$file\""
+		},
+		{
 			"auto_close": false,
 			"env":
 			{
