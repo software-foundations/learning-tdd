@@ -4,6 +4,10 @@
 
 - Any post has 2 attributes: title and content
 
+## Blog
+
+- Any blog has 3 attributes: title, author, and posts
+
 ---
 
 - In general, each test suit is a class
@@ -16,4 +20,5 @@
 # -m means module
 # -v means verbose
 python -m unittest -v <test_file_or_test_files_selector>
+python -m unittest -v <test_file_and_maybe_test_files_selector>.ClassName
 ```
