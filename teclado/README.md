@@ -17,3 +17,11 @@ source venv-teclado/bin/activates
 # -v means verbose
 python -m unittest -v <test_file_or_test_files_selector>
 ```
+
+- TDD is about RED, GREEN, and REFACTOR
+
+```
+RED -> See the test fail
+GREEN -> Write minimal implementation code to see the test pass
+REFACTOR -> Improve implementation
+```

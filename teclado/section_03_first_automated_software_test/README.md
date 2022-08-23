@@ -22,3 +22,5 @@
 python -m unittest -v <test_file_or_test_files_selector>
 python -m unittest -v <test_file_and_maybe_test_files_selector>.ClassName
 ```
+
+- TDD is a fancy name for 'think what you are about to implement before do it'
