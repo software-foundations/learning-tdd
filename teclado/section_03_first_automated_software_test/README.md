@@ -23,4 +23,22 @@ python -m unittest -v <test_file_or_test_files_selector>
 python -m unittest -v <test_file_and_maybe_test_files_selector>.ClassName
 ```
 
-- TDD is a fancy name for 'think what you are about to implement before do it'
+- TDD is a fancy name for 'think what you are about to implement before do it
+
+# Kinds of tests
+
+- Unit tests
+
+```
+Test things in a isolated way
+May test just one funciton or just one method
+```
+
+- Integration tests
+
+```
+Test things together
+May test a bunch of methods together
+May test a whole class
+May test a bunch of functions at once
+```
